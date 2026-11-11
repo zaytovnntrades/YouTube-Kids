@@ -1,0 +1,9 @@
+# Large media stays local — never commit renders or exports
+episodes/raw/*
+!episodes/raw/.gitkeep
+shorts/*
+!shorts/.gitkeep
+*.mp4
+*.mov
+*.wav
+.DS_Store
