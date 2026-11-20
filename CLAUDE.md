@@ -18,10 +18,11 @@ Run stages with `/pipeline <stage>`.
 - **Format:** 9:16 vertical, 1080×1920, 30fps, 15–45 seconds.
 
 **Characters.** If any bracket below is still unfilled, ask me to fill it in before writing a script.
-- Hero ninja: [name · age · personality · catchphrase]
-- Sensei: [name · teaching style · signature line]
-- Sidekick: [name · role · comic trait]
-- Signature chant: [the line kids repeat at the end]
+- Hero ninja: Kiko · 6 · curious, brave-but-careful, giggly · "Ninja eyes ON!"
+- Sensei: Sensei Hoot (snowy owl) · asks a question, waits, then shows the move calmly · "A true ninja stays calm and gets a grown-up."
+- Sidekick: Zip (firefly) · lights up = stop and think · zooms too fast and bonks into things
+- Signature chant: "Stop! Think! Ninja safe!"
+- Full character bible and design sheet: `characters/cast.md`
 
 ## 2. Safety pillars  (edit freely; content-matrix reads these)
 
@@ -53,6 +54,7 @@ Never fake an output (for example, a breakdown of a video you couldn't watch).
 ```
 CLAUDE.md
 about-me.md, voice.md   ← show voice from voice-builder (stage 0)
+characters/             ← cast.md character bible + design sheet links
 frameworks/             ← my own hook formulas & templates (override defaults)
 research/               ← YYYY-MM-DD-<topic>.md fact sheets, raw/ page dumps
 breakdowns/             ← <slug>.md video teardowns
