@@ -7,3 +7,7 @@ shorts/*
 *.mov
 *.wav
 .DS_Store
+# Voice models and rendered audio stay local
+tools/voices/
+audio/
+__pycache__/

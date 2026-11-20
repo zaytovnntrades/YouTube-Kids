@@ -64,6 +64,8 @@ episodes/raw/           ← full 3D renders (input only, never modify)
 shorts/                 ← ###-<slug>-<platform>.mp4 exports
 briefs/                 ← ###-brief.md toolkit handoffs
 published/              ← log.csv
+tools/                  ← vo.py free voiceovers, cast_voices.json, VOICEOVER.md
+audio/                  ← rendered VO (git-ignored)
 ```
 
 ---
@@ -153,6 +155,7 @@ WORD COUNT:
   `ffmpeg -ss 00:01:05 -i episodes/raw/ep01.mp4 -t 35 -vf "crop=trunc(ih*9/32)*2:ih,scale=1080:1920" -af loudnorm=I=-14:TP=-1.5:LRA=11 -c:v libx264 -crf 18 -c:a aac shorts/001-<slug>-yt.mp4`
 - Burn in captions: large, high-contrast, at most 2 short lines. Keep text and faces out of the bottom ~20% and right ~15% of the frame (platform UI covers them).
 - New narration, title cards or end cards: write `briefs/###-brief.md` (duration, final VO text, scene list: scene · seconds · visual · on-screen text, music mood), then tell me: "Open Claude Code in ../claude-code-video-toolkit and run /video with briefs/###-brief.md."
+- Free voiceover first: `python tools/vo.py script scripts/###-<slug>.md` (local Piper TTS, $0; see `tools/VOICEOVER.md`). Synthetic voices still need the §7.8 AI label.
 - Confirm with me before any step that spends paid credits (voice, cloud GPU, image or video models).
 - QA every export with the watch skill using `--engine local`: hook lands in 2s without text, captions readable, nothing in the UI zones.
 

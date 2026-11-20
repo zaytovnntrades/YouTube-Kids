@@ -1,0 +1,35 @@
+{
+  "_note": "Free local voices (Piper). speaker = LibriTTS-R speaker id; pick yours with `python tools/vo.py audition <character>`. pitch = semitones, tempo = speed multiplier, length_scale > 1 = slower, clearer speech.",
+  "kiko": {
+    "model": "en_US-libritts_r-medium",
+    "speaker": 3,
+    "pitch": 3.0,
+    "tempo": 1.0,
+    "length_scale": 1.05,
+    "test_line": "Ninja eyes ON! I see a hot stove. I stop, and I step back."
+  },
+  "sensei hoot": {
+    "model": "en_US-libritts_r-medium",
+    "speaker": 20,
+    "pitch": -2.0,
+    "tempo": 0.92,
+    "length_scale": 1.15,
+    "test_line": "Hmm. What should a ninja do? A true ninja stays calm and gets a grown-up."
+  },
+  "zip": {
+    "model": "en_US-libritts_r-medium",
+    "speaker": 3,
+    "pitch": 6.0,
+    "tempo": 1.08,
+    "length_scale": 0.95,
+    "test_line": "Zoom zoom! Oops, bonk! Light on means stop and think!"
+  },
+  "narrator": {
+    "model": "en_US-ljspeech-high",
+    "speaker": 0,
+    "pitch": 0.0,
+    "tempo": 1.0,
+    "length_scale": 1.1,
+    "test_line": "Stop! Think! Ninja safe!"
+  }
+}
