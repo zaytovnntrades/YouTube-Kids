@@ -1,7 +1,13 @@
 # Character Bible — Little Ninja Safety Academy (v1, proposed)
 
 Status: **proposal — director to approve**. Once approved, copy into CLAUDE.md §1.
-Design sheet: Canva (link in the commit notes / chat).
+Design sheet (Canva, v1): https://canva.link/jkd8orjxqnp8v96 · design ID DAHbaekVbvw
+
+### v1 review notes
+- Kiko: on-model (teal gi, yellow headband, star badge). ✅
+- Sensei Hoot: the round spectacles are missing; add them before the 3D model is built.
+- Zip: reads as a **bee** (stripes) rather than a firefly. Fix: remove the stripes and give Zip a glowing lantern tail.
+- The 3D tool is the source of truth: this sheet is a reference for the 3D modeler, not on-screen art (§7.8 AI label applies if it is ever shown in a Short).
 
 ## Originality check (guardrail §7.6)
 Deliberately avoided look-alikes: no turtles (TMNT), no red-panda or panda master (Kung Fu Panda),
